@@ -1,0 +1,12 @@
+Source: ros-kinetic-ridgeback-viz
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ridgeback-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-state-publisher, ros-kinetic-ridgeback-description, ros-kinetic-rviz
+Description: Visualization launchers and helpers for Ridgeback.
